@@ -1,6 +1,4 @@
 # Anaconda 3 Docker image for Udacity Self Driving Car Nano Degree
-Tool to encrypt and decrypt files based on https://cryptography.io.
-Network Security course project.
 
 ## Build image  
 ```bash
@@ -17,7 +15,7 @@ docker run -i -t -p 8888:8888 <youruser>/anaconda3sdc:<yourversion> /bin/bash
 jupyter_anaconda3
 ```
 
-## Access jupiter from host machine browser  
+## Access Jupiter from host machine browser  
 ```bash
 open http://localhost:8888
 ```
