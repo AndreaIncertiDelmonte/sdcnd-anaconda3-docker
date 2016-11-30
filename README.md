@@ -10,6 +10,11 @@ docker build -t <youruser>/anaconda3sdc:<yourversion> .
 docker run -i -t -p 8888:8888 <youruser>/anaconda3sdc:<yourversion> /bin/bash
 ```
 
+## Run image with shared folder
+```bash
+docker run -i -t -p 8888:8888 -v <yourfolder>:<containerfolder> <youruser>/anaconda3sdc:<yourversion> /bin/bash
+```
+
 ## Run jupiter inside container  
 ```bash
 jupyter_anaconda3

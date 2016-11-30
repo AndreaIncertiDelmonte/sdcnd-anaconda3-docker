@@ -7,6 +7,9 @@ MAINTAINER Andrea Incerti Delmonte <https://github.com/AndreaIncertiDelmonte>
 # libgtk2.0-0
 RUN apt-get -y install libgtk2.0-0
 
+# Vim
+RUN apt-get -y install vim
+
 # OpenCV 3
 RUN conda install -c https://conda.anaconda.org/menpo opencv3
 
